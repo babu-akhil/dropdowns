@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-size: 30px;
+    font-family: 'Nunito'
+}
+
+
+#navBar {
+    background-color: #86A6C6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.itemTitle {
+    background-color: #86A6C6;
+    margin: 2.5px 0px 0px 0px;
+    padding: 2.5px 5px 2px 10px;
+    position: relative;
+}
+
+.itemTitle:hover {
+    background-color: #444969;
+    color: white;
+}
+
+.menu {
+    position:absolute;
+    height: 0px;
+    transition: height 1s cubic-bezier(0.02, 0.92, 0.82, 1.15) ;
+    overflow: hidden;
+}
+
+.menuItem{
+    background-color: #86A6C6;
+    margin: 2.5px 5px 0px 5px;
+    padding: 2.5px 5px 2px 5px;
+}
+
+.menuItem:hover {
+    background-color: #444969;
+    color: white;
+}
+
+#textContent {
+    margin-top: 20px;
+    font-size: 20px;
+}
